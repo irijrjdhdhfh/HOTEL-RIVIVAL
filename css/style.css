@@ -317,81 +317,92 @@ box-shadow: 0 0 10px rgb(255, 255, 254);
     height: 420px;
     width: 620px;
 }
-/*/////////////////////////////////////////////*/
-/***************/
-.se1{
-font-size: 30px;
-color: #fff306;
-height: 100px;
-width: 100px;
-border-radius: 50%;
-border: 1px solid rgb(255, 255, 255);
-text-align: center;
-padding: 14px;
-}
-.se2{
-  font-size: 15px;
-  color: #ec1111;
-}
-.Hero0 h2{
-
- text-align: center;
- font-size: 80px;
-    color: #fefa00;
-}
-.rt{
-color: #f7d798;
-}
-.ee{
-   color: #ffffff;
-}
 
 
-.Hero1 div{
- width: 350px;
-    height: 580px;
-    border-radius: 7px;
-   box-shadow: 0 0 5px rgb(237, 222, 9);
- border: 0.5px solid black;
-float: left;
-margin: 55px;
-transition: 0.3s ease; 
-background-color: #ffffff;
-color: #000000;
+/*/////////////////////////*/
+.section3 h1{
+  font-size: 70px;
+  color: #ffffff;
+  margin-left: 400px;
 }
- .Hero1 img{
- width: 350px;
-    height: 300px;
-    border-radius: 7px;
+.section3 h1 span{
+ color: #ffe100;
 }
-.Hero2 div{
- width: 350px;
-    height: 580px;
-    border-radius: 7px;
-   background-color: #ffffff;
-   border: 0.5px solid black;
-float: left;
-margin: 55px;
-transition: 0.3s ease; 
-margin-top: -15px;
-box-shadow: 0 0 5px rgb(236, 213, 7);
- color: #000000;
+.sectionb2{
+    display: flex;
+    gap: 100px;
 }
-.Hero2 div:hover{
-   transform: scale(1.08) rotate(0.5deg);
-  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
-  filter: brightness(1.15);
+.sectionb2 div{
+    height: 260px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    padding: 13px;
+    margin-top: 15px;
+    margin-left: 110;
+    position: relative;
+
 }
-.Hero1 div:hover{
-   transform: scale(1.08) rotate(0.5deg);
-  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
-  filter: brightness(1.15);
+.sectionb2 div::after{
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background-color: #0000008b;
+  
 }
-.Hero2 img{
-width: 350px;
-    height: 300px;
-    border-radius: 7px;
+.sectionb2 div:hover::after{
+  transition: 2s ease;
+ width: 100%;
+  height: 100%;
+   opacity: 0.6;
+  
 }
+.sectionb2 div::before{
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: #0000008b;
+  
+}
+.sectionb2 div:hover::before{
+  transition: 2s ease;
+ width: 100%;
+  height: 100%;
+   opacity: 0.6;
+  
+ 
+}
+
+.sectionb2 div h3{
+  margin-top: 30px;
+  font-size: 25px;
+}
+.sectionb2 div i{
+  font-size: 25px;
+  margin-top: 8px;
+  color: #ffb050;
+}
+.sectionb2 div p{
+  
+  color: #673900;
+}
+.sectionb2 div a{
+ text-decoration: none;
+  color: #1c3cf0;
+}
+
+
+/*///////////////////////////*/
 .hero h3{
   text-align: center;
   margin-top: 5px;
@@ -401,32 +412,15 @@ width: 350px;
   padding: 10px 7px ;
   font-size: 20px;
 }
-.hero button{
-  width: 200px;
-  height: 50px;
-   background-color: #000000;
-text-align: center;
-margin-top: 10px;
-margin-left: 72px;
-border-radius: 5px;
-color: #ffffff;
-}
-.hero button:hover{
-  background: linear-gradient(
-  120deg,
-  #000000, /* soft gold */
-  #000000, /* warm orange */
-  #000000  /* elegant brown */
-);
-color: #ccc;
-}
+
+
+
 .hf{
   font-size: 60px;
   color: #ffffff;
 text-align: center;
 margin-top:100px ;
 }
-/*///////////////////////////*/
 .oo{
   height: 5px;
   width: 300px;
@@ -1002,6 +996,14 @@ background-size: cover;
   height: 100%;
   
 }
+.team-print:hover .team-info h2 {
+ transition: 1s ease;
+  color: #437de7;
+}
+.team-print:hover .team-info a {
+ transition: 1s ease;
+  color: #2192d9;
+}
 /*/////////////////////////////////////////////////////*/
 .img23tt{
   width: 300px;
@@ -1028,6 +1030,7 @@ border-radius: 6px;
   width: 300px;
   height: 350px;
   background-size: cover;
+  border-radius: 7px;
 }
 .overlaytt{
  
@@ -1120,6 +1123,6 @@ margin-top: 15px;
 }
 .Footer1 i:hover{
 transition: 0.4s ease;
-background-color: rgb(52, 54, 54);
- color: #bca91aa1;
+background-color: rgba(35, 33, 33, 0.681);
+ color: #bca91cc6;
 }
