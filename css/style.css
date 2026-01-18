@@ -11,16 +11,17 @@ body{
 }
 .F12h{
   position: relative;
+  
 }
 .f1{
   position: absolute;
   
   left: 30px;
   list-style: none;
-  background-color: #636262;
+  background-color: #ffffff65;
   width: 150px;
  
-  border-radius: 8px;
+  border-radius: 8px; 
   opacity: 0;
   visibility: hidden;
   transform: translateY(15px);
@@ -30,9 +31,9 @@ body{
 .lie a{
   display: block;
   text-align: center;
-  color: #fff;
-  text-decoration: none;
   
+  text-decoration: none;
+  color: #ffffff;
 }
 .lie a:hover{
   
@@ -54,9 +55,9 @@ margin-top: -12px;
     border-radius: 10px;
   background: linear-gradient(
   120deg,
-  #0b0b0b, /* soft gold */
-  #e4e1e1, /* warm orange */
-  #000000  /* elegant brown */
+  #000000, /* soft gold */
+  #ffffff, /* warm orange */
+  #ffffffbf  /* elegant brown */
 );
    margin: auto;
 position: fixed;
@@ -148,7 +149,7 @@ flex-wrap: wrap;
    
 }
 .List li a{
-    color: rgb(23, 22, 22);
+    color: rgb(0, 0, 0);
      text-decoration: none;
      left: 12px;
       font-size:30px;
@@ -189,7 +190,7 @@ filter: brightness(1.30);
    height: 40px;
     width: 150px;
     border-radius: 5px;
-    background-color:rgba(255, 211, 150, 0.031) ;
+    background-color:rgb(255, 211, 150) ;
     color: rgb(74, 44, 1);
     padding: 11px;
 }
